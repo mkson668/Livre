@@ -1,13 +1,15 @@
 import React from 'react';
 // styling cannot be used from css btw
 // import './Bookcase.css';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, Button} from 'react-native';
+import Profile from './Profile';
 
 class Lists extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>Lists</Text>
+        <Button title="Go to Book Details" />
       </View>
     );
   }
